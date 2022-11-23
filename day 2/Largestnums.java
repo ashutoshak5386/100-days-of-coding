@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class Largestnums {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num, a=0;
+        System.out.print("ENTER A NUMBER: ");
+        num = sc.nextInt();
+
+        // Condition Starts
+        while(num!=0){
+        System.out.print("ENTER A NUMBER: ");
+        num = sc.nextInt();
+        System.out.println("ENTER 0 TO END LOOP");
+        if(num>a){
+            a = num; // The value of a will change to the value of num 
+            }
+        }// Condition Ends
+        System.out.print("The largest number entered by the user is: "+a);
+    
+    
+    }
+    
+}
